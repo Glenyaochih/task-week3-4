@@ -1,0 +1,35 @@
+.product-type{
+    .row{
+        border: 1px solid $frame1;
+    }
+    .card{
+        border-right: 1px solid $frame1;
+        border-left: 1px solid $frame1;
+    }
+    .p-type-box{
+        a{
+            display:block;
+            padding-top: 24px;
+            padding-bottom: 24px;
+            height: 100%;
+        }
+        a:focus{
+            border-bottom: 8px solid $primary ;
+        }
+        }
+        @media (max-width: 767px){
+            .p-type-box{
+                a{
+                    display: block;
+                    padding-top: 16px;
+                    padding-bottom: 16px;
+                    font-size: 24px;
+                }
+            }
+        }
+        
+        
+        
+        
+    
+}

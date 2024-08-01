@@ -1,0 +1,97 @@
+.footer{
+  .social{
+    img{
+      width: 48px;height: 48px;
+    }
+  }
+  .social-lg{
+    display: none;
+  }
+  .telnum{
+    img{
+      display: block;
+      margin-right: 22px;
+      width: 36px;
+    }
+  }
+  a{
+    text-wrap: nowrap;
+  }
+  .mail{
+    display: block;
+    height: 32px;
+    width: 40px;
+  }
+  .divline{
+    border-bottom: 1px solid #FFFFFF;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  @media (max-width: 992px){
+    .container{
+        padding-left: 36px;
+        padding-right: 36px;
+      }
+      .mr-m{
+        margin-right: 16px;
+      }
+}
+
+
+@media (max-width: 767px){
+  .container{
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  .menu-lg{
+    display: none;
+    padding-top: 24px;
+  }
+  .fs-4{
+    font-size: 16px;
+  }
+  .telnum{
+    img{
+      width: 18px;
+      height: 18px;
+      margin-right: 11px;
+    }
+  }
+  .mail{
+    height: 16px;
+    width: 20px;
+    margin-right: 10px;
+  }
+  .social-lg{
+    display: block;
+    img{
+      width: 24px;
+      height: 24px;
+    }
+    display: flex;
+  }
+  .divline{
+    border-bottom: 1px solid #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+
+  .service{
+    flex-direction: column;
+    .d-flex{
+      flex-direction: column;
+    }
+    p{
+      margin-bottom: 8px;
+    }
+  }
+
+  
+}
+
+
+    
+}
+
+
